@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 const dirPath = join(__dirname, 'files');
 const errorMessage = 'FS operation failed';
 
-
 const list = async () => {
     try {
         const files = await readdir(dirPath);

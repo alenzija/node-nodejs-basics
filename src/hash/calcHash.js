@@ -20,7 +20,7 @@ const calculateHash = async () => {
 
     stream.on('close', () => {
         console.log(hash);
-    })
+    });
 
 };
 

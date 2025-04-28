@@ -12,7 +12,7 @@ const write = async () => {
     const stream = createWriteStream(filePath);
 
     stdin.pipe(stream);
-    
+
     stream.on('error', console.error);
 };
 

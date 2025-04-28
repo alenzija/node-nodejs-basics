@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 const filePath = join(__dirname, 'files', 'fileToRemove.txt');
 const errorMessage = 'FS operation failed';
 
-
 const remove = async () => {
     try {
         await unlink(filePath);

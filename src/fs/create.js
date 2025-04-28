@@ -9,7 +9,6 @@ const filePath = join(__dirname, 'files', 'fresh.txt');
 const content = 'I am fresh and young';
 const errorMessage = 'FS operation failed';
 
-
 const create = async () => {
     try {
         await access(filePath);

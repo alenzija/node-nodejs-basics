@@ -9,8 +9,6 @@ const fileWithWrongName = join(__dirname, 'files', 'wrongFilename.txt');
 const fileWithRightName = join(__dirname, 'files', 'properFilename.md');
 const errorMessage = 'FS operation failed';
 
-
-
 const rename = async () => {
     try {
         await access(fileWithWrongName);
